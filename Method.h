@@ -12,9 +12,15 @@ void LoadUsers();
 
 void LoadItems();
 
+void DownloadUsers();
+
+void DownloadItems();
+
 void LoginPanel();
 
 void UserPanel();
+
+void AdminPanel();
 
 void CheckSender();
 
@@ -25,5 +31,13 @@ void CheckSenderUnaccepted();
 void CheckReceiverUnaccepted();
 
 void SendItem();
+
+void AcceptItem();
+
+void CheckItemByItemID();
+
+void CheckUserByUserID();
+
+void CheckItemsByUserID();
 
 #endif //EXPRESSMANAGEMENTSYSTEM_METHOD_H

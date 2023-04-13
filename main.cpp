@@ -27,6 +27,23 @@ int main() {
     } catch (const char *msg) {
         std::cerr << msg << std::endl;
     }
+
+    // Download config files
+    std::cout << "Downloading Users..." << std::endl;
+    try {
+        DownloadUsers();
+    } catch (const char *msg) {
+        std::cerr << msg << std::endl;
+        return 1;
+    }
+    std::cout << "Downloading Items..." << std::endl;
+    try {
+        DownloadItems();
+    } catch (const char *msg) {
+        std::cerr << msg << std::endl;
+        return 2;
+    }
+
     std::cout << "Program has exited" << std::endl;
     return 0;
 }

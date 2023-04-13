@@ -20,6 +20,10 @@ double User::GetBalance() {
     return this->balance;
 }
 
+std::string User::GetUserGroup() {
+    return this->user_group;
+}
+
 bool User::ChargeBalance(double amount) {
     if (this->balance - amount > 0.0) {
         this->balance -= amount;

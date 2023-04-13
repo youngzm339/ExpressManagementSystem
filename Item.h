@@ -38,6 +38,10 @@ public:
     void SetState();
 
     friend void LoadItems();
+
+    friend void DownloadItems();
+
+    friend void SendItem();
 };
 
 #endif //EXPRESSMANAGEMENTSYSTEM_ITEM_H
