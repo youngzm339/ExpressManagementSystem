@@ -52,5 +52,6 @@ Mkfile.old
 dkms.conf
 
 # Cmake Files
+build
 cmake-build-debug
 cmake-build-release

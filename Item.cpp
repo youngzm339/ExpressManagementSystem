@@ -36,6 +36,10 @@ bool Item::GetState() {
     return this->state;
 }
 
+std::string Item::GetCourier() {
+    return this->courier;
+}
+
 void Item::SetState() {
     this->state = true;
 }

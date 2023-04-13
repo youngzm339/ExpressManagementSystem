@@ -17,7 +17,7 @@ private:
     std::string origin;
     std::string destination;
     bool state;
-
+    std::string courier;
 public:
     std::string GetID();
 
@@ -34,6 +34,8 @@ public:
     std::string GetDestination();
 
     bool GetState();
+
+    std::string GetCourier();
 
     void SetState();
 

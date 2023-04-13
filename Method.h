@@ -22,6 +22,8 @@ void UserPanel();
 
 void AdminPanel();
 
+void CourierPanel();
+
 void CheckSender();
 
 void CheckReceiver();
@@ -39,5 +41,11 @@ void CheckItemByItemID();
 void CheckUserByUserID();
 
 void CheckItemsByUserID();
+
+void CheckItemsCourier();
+
+void CheckItemsCourierUnaccepted();
+
+void AcceptItemCourier();
 
 #endif //EXPRESSMANAGEMENTSYSTEM_METHOD_H
